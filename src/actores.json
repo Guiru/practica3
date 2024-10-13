@@ -1,0 +1,42 @@
+[
+  {
+    "ID": 1,
+    "Nombre Completo": "Robert Downey Jr.",
+    "Año de nacimiento": 1965
+  },
+  {
+    "ID": 2,
+    "Nombre Completo": "Scarlett Johansson",
+    "Año de nacimiento": 1984
+  },
+  {
+    "ID": 3,
+    "Nombre Completo": "Leonardo DiCaprio",
+    "Año de nacimiento": 1974
+  },
+  {
+    "ID": 4,
+    "Nombre Completo": "Tom Hanks",
+    "Año de nacimiento": 1956
+  },
+  {
+    "ID": 5,
+    "Nombre Completo": "Emma Stone",
+    "Año de nacimiento": 1988
+  },
+  {
+    "ID": 99,
+    "Nombre Completo": "Guillermo Garnica",
+    "Año de nacimiento": 1994
+  },
+  {
+    "ID": 111,
+    "Nombre Completo": "Guillermo Garnica",
+    "Año de nacimiento": 1994
+  },
+  {
+    "ID": 13,
+    "Nombre Completo": "Guillermo Garnica",
+    "Año de nacimiento": 1994
+  }
+]

@@ -1,0 +1,62 @@
+
+.contenedor {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  border-color: red;
+  border-style: dotted;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  .pelicula {
+    flex: 0 0 auto;
+  }
+
+  
+}
+
+.pelicula {
+  position: relative;
+  margin: 25px;
+  border-color: black;
+  border-style: dashed;
+  width: 250px;
+  height: 175px;
+}
+
+h3 {
+  padding: 3px;
+  position:absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-color: green;
+  border-style: solid;
+  width:75%;
+  
+  
+}
+
+.informacion {
+  position: absolute;
+  width:90%;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.boton-mas{
+
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.boton-menos{
+
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+

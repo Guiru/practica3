@@ -1,0 +1,233 @@
+[
+  {
+    "ID": 1,
+    "Nombre": "Iron Man",
+    "Categoria": "Accion",
+    "Año de publicación": 2008,
+    "Director": "Jon Favreu",
+    "Actores": [
+      1
+    ]
+  },
+  {
+    "ID": 2,
+    "Nombre": "The Avengers",
+    "Categoria": "Accion",
+    "Año de publicación": 2012,
+    "Director": "Joss Whedon",
+    "Actores": [
+      1,
+      2
+    ]
+  },
+  {
+    "ID": 3,
+    "Nombre": "Inception",
+    "Categoria": "Drama",
+    "Año de publicación": 2010,
+    "Director": "Christopher Nolan",
+    "Actores": [
+      3
+    ]
+  },
+  {
+    "ID": 4,
+    "Nombre": "Forrest Gump",
+    "Categoria": "Comedia",
+    "Año de publicación": 1994,
+    "Director": "Robert Zemeckis",
+    "Actores": [
+      4
+    ]
+  },
+  {
+    "ID": 5,
+    "Nombre": "La La Land",
+    "Categoria": "Musical",
+    "Año de publicación": 2016,
+    "Director": "Damien Chazelle",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 6,
+    "Nombre": "Gran Torino",
+    "Categoria": "Drama",
+    "Año de publicación": 2008,
+    "Director": "Clint Eastwood",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 7,
+    "Nombre": "Joker",
+    "Categoria": "Drama",
+    "Año de publicación": 2019,
+    "Director": "Todd Philips",
+    "Actores": [
+      5
+    ]
+  }
+  ,{
+    "ID": 8,
+    "Nombre": "Antes de ti",
+    "Categoria": "Drama",
+    "Año de publicación": 2016,
+    "Director": "The Sharrock",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 9,
+    "Nombre": "El Padrino",
+    "Categoria": "Drama",
+    "Año de publicación": 1972,
+    "Director": "Francis Ford Coppola",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 10,
+    "Nombre": "Cinema Paradiso",
+    "Categoria": "Drama",
+    "Año de publicación": 1988,
+    "Director": "Giuseppe Tornatore",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 11,
+    "Nombre": "Cadena Perpetua",
+    "Categoria": "Drama",
+    "Año de publicación": 1994,
+    "Director": "Frank Darabont",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 12,
+    "Nombre": "El Padrino II",
+    "Categoria": "Drama",
+    "Año de publicación": 1974,
+    "Director": "Francis Ford Coppola",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 13,
+    "Nombre": "El Padrino III",
+    "Categoria": "Drama",
+    "Año de publicación": 1990,
+    "Director": "Francis Ford Coppola",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 14,
+    "Nombre": "El Caballero Oscuro",
+    "Categoria": "Accion",
+    "Año de publicación": 2008,
+    "Director": "Christopher Nolan",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 15,
+    "Nombre": "Gladiator",
+    "Categoria": "Accion",
+    "Año de publicación": 2000,
+    "Director": "Ridley Scott",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 16,
+    "Nombre": "Harakiri",
+    "Categoria": "Accion",
+    "Año de publicación": 1962,
+    "Director": "Masaki Kobayashi",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 17,
+    "Nombre": "Vengadores: Infinity War",
+    "Categoria": "Accion",
+    "Año de publicación": 2018,
+    "Director": "Anthony Russo",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 18,
+    "Nombre": "Vengadores: Endgame",
+    "Categoria": "Accion",
+    "Año de publicación": 2019,
+    "Director": "Anthony Russo",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 19,
+    "Nombre": "Borat",
+    "Categoria": "Comedia",
+    "Año de publicación": 2006,
+    "Director": "Larry Charles",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 20,
+    "Nombre": "Superbad",
+    "Categoria": "Comedia",
+    "Año de publicación": 2007,
+    "Director": "Greg Mottola",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 21,
+    "Nombre": "Zoolander",
+    "Categoria": "Comedia",
+    "Año de publicación": 2001,
+    "Director": "Ben Stiller",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 22,
+    "Nombre": "Bitelchús",
+    "Categoria": "Comedia",
+    "Año de publicación": 1988,
+    "Director": "Tim Burton",
+    "Actores": [
+      5
+    ]
+  },
+  {
+    "ID": 23,
+    "Nombre": "El Gran Dictador",
+    "Categoria": "Comedia",
+    "Año de publicación": 1940,
+    "Director": "Charles Chapplin",
+    "Actores": [
+      5
+    ]
+  }
+]
