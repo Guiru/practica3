@@ -1,8 +1,26 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import data from './peliculas.json';
+
+
+
+
+
+
+
+
 
 export default function Peliculas({categoria}){
   
+  const [peliculas, setPeliculas] = useState([]); // Estado para almacenar los datos de la API
+
+  // Hacer la petición GET al montar el componente
+  useEffect(() => {
+    fetch('http://localhost:8000/peliculas')  // Reemplaza con tu API
+      .then(response => response.json())
+      .then(data => setPeliculas(data))         // Guardar los datos en el estado
+      .catch(error => console.error('Error al hacer el GET:', error));
+  }, []);  // Solo se ejecuta una vez al montar el componente
+
     //Me quedo solo con las películas de la categoría que venga como parámetro
     const peliculasAccion = data.filter(pelicula => pelicula.Categoria.match(categoria));
   

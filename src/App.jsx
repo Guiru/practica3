@@ -2,6 +2,7 @@ import { useState } from 'react'
 import data from './peliculas.json';
 import Peliculas from './Peliculas';
 
+
 function App() {
 
   return (
