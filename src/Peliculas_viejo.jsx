@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export default function Peliculas({ categoria }) {  // Recibimos la categoría como prop
+export default function Prueba({ categoria }) {  // Recibimos la categoría como prop
 
   const [data, setPeliculas] = useState(null);
 
