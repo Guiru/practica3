@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 
-export default function Peliculas({ categoria }) {  // Recibimos la categoría como prop
+export default function Peliculas({ categoria }) {  // Recibimos la categoría como argumento
 
   const [data, setPeliculas] = useState(null);
 
   // Hacer la petición GET al montar el componente
   useEffect(() => {
-    fetch('http://localhost:8000/peliculas')  // Reemplaza con tu API
+    fetch('http://localhost:8000/peliculas') 
       .then(response => response.json())
       .then(data => {
         // Verificar si los datos recibidos son un array
@@ -18,26 +18,27 @@ export default function Peliculas({ categoria }) {  // Recibimos la categoría c
         }
       })
       .catch(error => console.error('Error al hacer el GET:', error));
-  }, []);  // Solo se ejecuta una vez al montar el componente
+  }, []);  
 
   // Estado que controla la visibilidad de cada película por su ID
-  const [muestraMas, setMuestraMas] = useState({});
+  const [muestraMas, setMuestraMas] = useState({}); //useState me da dos cosas, muestraMas que es el estado actual, y setMuestraMas es la funcion que se usa para actualizar el estado.
 
   // Función para cambiar el estado de visibilidad para una película particular
-  const cambioBoton = (id) => {
-    setMuestraMas(prevState => ({
-      ...prevState,
-      [id]: !prevState[id],
+  const cambioBoton = (id) => { //Espera como parámetro un id, el de la película
+    setMuestraMas(prevState => ({ //La función setMuestraMas usa el estado previo(visible/oculto).
+      ...prevState, //Esta línea copia todo el contenido del estado anterior (lo que hay en prevState) al nuevo estado
+      [id]: !prevState[id], //Se invierte el valor de visibilidad del elemento con el id que se haya pasado al pulsar el botón
     }));
   };
 
+ 
   // Filtrar las películas por categoría
   const peliculasFiltradas = data?.filter(pelicula => pelicula.Categoria === categoria);
 
   return (
     <div className="contenedor">
       {/* Verificar explícitamente que los datos no sean nulos y que sean un array */}
-      {peliculasFiltradas && peliculasFiltradas.length > 0 ? (
+      {peliculasFiltradas && peliculasFiltradas.length > 0 ? ( //Así se hace un if-else {condicion ? (acciones si se cumple):(acciones si no se cumple)}
         peliculasFiltradas.map((peliculas) => (
           <div key={peliculas.ID} className="pelicula">
             <h3>{peliculas.Nombre}</h3>
@@ -68,7 +69,7 @@ export default function Peliculas({ categoria }) {  // Recibimos la categoría c
           </div>
         ))
       ) : (
-        <p>No hay películas disponibles para esta categoría o cargando datos...</p>  // Mostrar mensaje mientras los datos se cargan
+        <p>No hay películas disponibles para esta categoría o estoy cargando datos...</p>  // Mostrar mensaje mientras los datos se cargan
       )}
     </div>
   );
